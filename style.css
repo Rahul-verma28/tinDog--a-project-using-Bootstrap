@@ -2,11 +2,6 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-.container-fluid{
-    padding: 3% 7%;
-    color: #fff;
-}
-
 .container h1{
     font-family: 'Montserrat-black', sans-serif;
     line-height: 1.5em;
@@ -32,9 +27,13 @@ body{
 @media (max-width: 768px) {
     .dog-image{
         transform: rotate(0);
+        width: 50%;
     }
 
-
+    .front{
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
 .second-section .bi{
